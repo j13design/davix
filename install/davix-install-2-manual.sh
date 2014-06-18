@@ -357,6 +357,8 @@ wget -c http://www.caida.org/tools/visualization/walrus/download/walrus-0.6.3.ta
 tar -xvpf walrus-0.6.3.tar.gz
 mv walrus-0.6.3 $DH/walrus-0.6.3
 mv tmp/walruscsv $DH/walrus-0.6.3
+    ##ADD CLASSPATH&LD_LIBRARY TO walrus start script
+    ##
 rm -r tmp
 
 ## Gephi
